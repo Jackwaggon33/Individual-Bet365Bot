@@ -1,4 +1,4 @@
-import eel, time, threading
+importimportimportimportimportimportimportimport eel, time, threading
 from datetime import datetime
 from src.database import MongoDB
 from src.bot import BetBot
@@ -6,7 +6,7 @@ from src.bot import BetBot
 class Updater:
     def __init__(self, account:dict):
         self.MongoDB = MongoDB
-        self.account = account
+        self.account = accountaccount
 
     def update_balance(self, balance:float):
         self.account["license"]['actual_value'] = balance
